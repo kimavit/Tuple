@@ -1,8 +1,8 @@
 Tuple data type.
 ===
-#### Tuple is immutable sequences containing, unlike strings, completely arbitrary data.
+> #### Tuple is immutable sequences containing, unlike strings, completely arbitrary data.
 
-> Tuples support:
+Tuples support:
 1. Access to an element by index (only for obtaining element values);
 2. Methods, in particular index(), count();
 3. Built-in functions, in particular len(), sum(), min() and max();
