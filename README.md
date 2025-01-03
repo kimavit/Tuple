@@ -10,3 +10,16 @@ Tuples support:
 5. The membership operator in;
 6. The concatenation (+) and repetition (*) operators.
 
+Iterating through the elements of a tuple:
+````ruby
+numbers = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+for i in range(len(numbers)):
+    print(numbers[i])
+````
+````ruby
+numbers = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+for num in numbers:
+    print(num)
+````
+Comparing tuples
+
